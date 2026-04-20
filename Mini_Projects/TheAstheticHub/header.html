@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(90deg, #fce4ec, #fff1f1, #fce4ec);
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column; /* Content aur Marquee ko upar-niche karne ke liye */
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            border-bottom: 3px solid #f06292;
+        }
+
+        .header-container {
+            text-align: center;
+            margin-bottom: 10px; /* Marquee ke liye thodi jagah */
+        }
+
+        h1 {
+            font-family:sans-serif;
+
+            font-size: 45px;
+            color: hsl(338, 78%, 48%);
+            margin: 0;
+            letter-spacing: 4px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Marquee Styling */
+        .welcome-note {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5); /* Glassy effect */
+            color: hsl(328, 81%, 29%);
+            font-family: 'Verdana', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 5px 0;
+            letter-spacing: 2px;
+            border-top: 1px solid #fce4ec;
+            border-bottom: 1px solid #fce4ec;
+        }
+
+        .sparkle { color: hsl(340, 83%, 66%); font-size: 20px; }
+    </style>
+    
+</head>
+<body>
+
+    <div class="header-container">
+        <h1>
+            <span class="sparkle"></span> 
+            Aesthetic Hub 
+            <span class="sparkle"></span>
+        </h1>
+    </div>
+
+    <marquee class="welcome-note" direction="left" scrollamount="6">
+         Welcome to your sanctuary, girlies! Enjoy the vibes, the art, and the music... Stay Aesthetic! 
+    </marquee>
+
+</body>
+</html>

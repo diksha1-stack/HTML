@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Creative Canvas</title>
+    <style>
+        body {
+            
+            background-color: #f4f1ea; 
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5d4037;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            border-bottom: 2px solid #d7ccc8;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        /* Polaroid Frame Effect */
+        .polaroid {
+            background: white;
+            padding: 15px 15px 30px 15px; /* Niche zyada space caption ke liye */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 1px solid #ddd;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+        }
+
+        /* Different tilts for Pinterest vibe */
+        .polaroid:nth-child(odd) { transform: rotate(-3deg); }
+        .polaroid:nth-child(even) { transform: rotate(3deg); }
+
+        .polaroid:hover {
+            transform:  scale(1.1); /* Zoom effect */
+            z-index: 5;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .polaroid img {
+            width: 250px; /* Fixed width for discipline */
+            height: 300px; /* Sab images ek size ki */
+            object-fit: cover; /* Image kategi nahi, adjust ho jayegi */
+            border: 1px solid #eee;
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-family: 'Brush Script MT', cursive; /* Artistic font */
+            font-size: 20px;
+            color: #3e2723;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>My Creative Sanctuary</h1>
+
+    <div class="gallery-container">
+        
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/dc/9a/6d/dc9a6d3c42dd32e41e833fe1d104c807.jpg" alt="Mandala Art">
+            <div class="caption">KRISHNA</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/474x/2f/a0/4e/2fa04eb7668ea780861c2e07a92b99ca.jpg" alt="Mandala Art">
+            <div class="caption">RADHE krishna</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/26/4e/d0/264ed0c24c62fcbffd6b26c22cb20790.jpg" alt="Mandala Art">
+            <div class="caption">Himalayan Strokes</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/83/8f/d1/838fd121d87ecfb2fbc9d63d7d7f5e72.jpg" alt="Mandala Art">
+            <div class="caption">Aesthetic Chronicles</div>
+        </div>
+
+   
+<div class="polaroid">
+            <img src="https://i.pinimg.com/736x/69/46/bb/6946bbb655658c724ce5235407125512.jpg" alt="Scrapbook">
+            <div class="caption">Dancing girl</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/17/4b/0b/174b0b295aace4d8b77e5cadf5bffca8.jpg" alt="Scrapbook">
+            <div class="caption">Diwali asthetic</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/3a/84/b3/3a84b317dc4bc43d16a9e7203ab06aa9.jpg" alt="Scrapbook">
+            <div class="caption">sitar vadni</div>
+        </div>
+
+   
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/05/d1/67/05d16733b895c0cc470fe91fc3cf2b1c.jpg" alt="Scrapbook">
+            <div class="caption">Aesthetic Chronicles</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/74/b5/e7/74b5e79649ff8452e07534d56a69cfaa.jpg" alt="Scrapbook">
+            <div class="caption">Aesthetic Chronicles</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/80/e7/57/80e7575afb3a3156a162f3db364d0521.jpg" alt="Scrapbook">
+            <div class="caption">Aesthetic Chronicles</div>
+        </div>
+
+    </div>
+    
+
+    
+
+
+</body>
+</html>
