@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Creative Canvas</title>
+    <style>
+        body {
+            
+            background-color: #f4f1ea; 
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5d4037;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            border-bottom: 2px solid #d7ccc8;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        /* Polaroid Frame Effect */
+        .polaroid {
+            background: white;
+            padding: 15px 15px 30px 15px; /* Niche zyada space caption ke liye */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 1px solid #ddd;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+        }
+
+        /* Different tilts for Pinterest vibe */
+        .polaroid:nth-child(odd) { transform: rotate(-3deg); }
+        .polaroid:nth-child(even) { transform: rotate(3deg); }
+
+        .polaroid:hover {
+            transform:  scale(1.1); /* Zoom effect */
+            z-index: 5;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .polaroid img {
+            width: 250px; /* Fixed width for discipline */
+            height: 300px; /* Sab images ek size ki */
+            object-fit: cover; /* Image kategi nahi, adjust ho jayegi */
+            border: 1px solid #eee;
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-family: 'Brush Script MT', cursive; /* Artistic font */
+            font-size: 20px;
+            color: #3e2723;
+        }
+
+    
+    </style>
+</head>
+<body>
+
+    <h1>My Creative Sanctuary</h1>
+
+    <div class="gallery-container">
+        
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/84/d7/27/84d727eb9a9cb9f5ecff23bee4720d26.jpg" alt="Mandala Art">
+            <div class="caption">flower land</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/81/e3/52/81e352f57bee2a8f9fbae06b655d7a3c.jpg" alt="Mandala Art">
+            <div class="caption">morning sun</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/4d/59/05/4d590558ed62abedcf76e95474316867.jpg" alt="Mandala Art">
+            <div class="caption">sea shore</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/ed/80/f7/ed80f74b8d056117fd5a74b822396d89.jpg" alt="Mandala Art">
+            <div class="caption">beach</div>
+        </div>
+
+   
+<div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/6e/7f/c2/6e7fc2b04d9a8d7f961504a4cbe6b9a0.jpg" alt="Scrapbook">
+            <div class="caption">just living</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/2b/5c/20/2b5c2081e10808e8a705fa085a3b1104.jpg" alt="Scrapbook">
+            <div class="caption">sunset</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/8b/60/42/8b60422b66ae9f233704eebbd4a376a6.jpg" alt="Scrapbook">
+            <div class="caption">landscape</div>
+        </div>
+
+   
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/a9/a4/d0/a9a4d0939b46d91b72964758f3564f40.jpg" alt="Scrapbook">
+            <div class="caption">tree</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/80/6a/27/806a271fe14716df10d4df50ea192e48.jpg" alt="Scrapbook">
+            <div class="caption">moon light</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/6a/2b/f4/6a2bf43cd0ccaf27edff6996e3357dd7.jpg" alt="Scrapbook">
+            <div class="caption">water colour painting</div>
+        </div>
+
+    </div>
+    
+
+    
+
+
+
+</body>
+</html>

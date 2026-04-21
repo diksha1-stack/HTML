@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Creative Canvas</title>
+    <style>
+        body {
+            
+            background-color: #f4f1ea; 
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5d4037;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            border-bottom: 2px solid #d7ccc8;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        /* Polaroid Frame Effect */
+        .polaroid {
+            background: white;
+            padding: 15px 15px 30px 15px; /* Niche zyada space caption ke liye */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 1px solid #ddd;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+        }
+
+        /* Different tilts for Pinterest vibe */
+        .polaroid:nth-child(odd) { transform: rotate(-3deg); }
+        .polaroid:nth-child(even) { transform: rotate(3deg); }
+
+        .polaroid:hover {
+            transform:  scale(1.1); /* Zoom effect */
+            z-index: 5;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .polaroid img {
+            width: 250px; /* Fixed width for discipline */
+            height: 300px; /* Sab images ek size ki */
+            object-fit: cover; /* Image kategi nahi, adjust ho jayegi */
+            border: 1px solid #eee;
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-family: 'Brush Script MT', cursive; /* Artistic font */
+            font-size: 20px;
+            color: #3e2723;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <h1>My Creative Sanctuary</h1>
+
+    <div class="gallery-container">
+        
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/3c/aa/da/3caada99e5c21d7cfae2f4172ff67672.jpg" alt="Mandala Art">
+            <div class="caption">shree charan</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/c9/5b/9d/c95b9de6b1e1039facafbd79bc20fa8b.jpg" alt="Mandala Art">
+            <div class="caption">beautiful</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/7a/fb/6a/7afb6a13e7d93f8bc4e258b819920814.jpg" alt="Mandala Art">
+            <div class="caption">maa kali</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/e1/b5/20/e1b5202039c93703339549060228f8de.jpg" alt="Mandala Art">
+            <div class="caption">gopi</div>
+        </div>
+
+   
+<div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/10/54/b7/1054b7e4af46b0586342243e0e58f0aa.jpg" alt="Scrapbook">
+            <div class="caption">smoking women</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/b8/a6/54/b8a65409c92ed42f6efc0b1997bf55e5.jpg" alt="Scrapbook">
+            <div class="caption"> asthetic</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/28/d3/1f/28d31fb298631b5ef99c4f631b40aea3.jpg" alt="Scrapbook">
+            <div class="caption"> eye contact</div>
+        </div>
+
+   
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/e3/93/98/e39398dce0a22295fe678fe0614a7618.jpg" alt="Scrapbook">
+            <div class="caption">tandav</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/85/61/2c/85612c07981a5c08dd2eb4df6a6c8255.jpg" alt="Scrapbook">
+            <div class="caption">sitar vadni</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/b6/29/54/b629544bb74b497853112604a14929d8.jpg" alt="Scrapbook">
+            <div class="caption">feminine art</div>
+        </div>
+
+    </div>
+    
+
+    
+
+    
+
+</body>
+</html>

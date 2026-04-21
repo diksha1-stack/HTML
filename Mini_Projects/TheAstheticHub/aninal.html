@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>My Creative Canvas</title>
+    <style>
+        body {
+            
+            background-color: hsl(42, 31%, 94%); 
+            font-family: 'Verdana', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5d4037;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            border-bottom: 2px solid #d7ccc8;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-bottom: 50px;
+        }
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        /* Polaroid Frame Effect */
+        .polaroid {
+            background: white;
+            padding: 15px 15px 30px 15px; /* Niche zyada space caption ke liye */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            border: 1px solid #ddd;
+            transition: transform 0.4s ease;
+            cursor: pointer;
+        }
+
+        /* Different tilts for Pinterest vibe */
+        .polaroid:nth-child(odd) { transform: rotate(-3deg); }
+        .polaroid:nth-child(even) { transform: rotate(3deg); }
+
+        .polaroid:hover {
+            transform:  scale(1.1); 
+            z-index: 5;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .polaroid img {
+            width: 250px; /* Fixed width for discipline */
+            height: 300px; /* Sab images ek size ki */
+            object-fit: cover; /* Image kategi nahi, adjust ho jayegi */
+            border: 1px solid #eee;
+        }
+
+        .caption {
+            margin-top: 15px;
+            font-family: 'Brush Script MT', cursive; /* Artistic font */
+            font-size: 20px;
+            color: #3e2723;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Creative Sanctuary</h1>
+
+    <div class="gallery-container">
+        
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/65/c8/07/65c80742cec913bb6ad9f4e423c896cb.jpg" alt="Mandala Art">
+            <div class="caption">nandi</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/28/16/99/28169948e6a7e20aa1c22cda4503d8b6.jpg" alt="Mandala Art">
+            <div class="caption">tiger</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/c1/43/2e/c1432e60f14d5f13eab4a543b62269df.jpg" alt="Mandala Art">
+            <div class="caption">peacock</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/f3/d8/2a/f3d82a659f35fa6cc058d6bf19ba2cfb.jpg" alt="Mandala Art">
+            <div class="caption">cows</div>
+        </div>
+
+   
+<div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/ba/b6/30/bab6308e13fc496233ec8883e294c058.jpg" alt="Scrapbook">
+            <div class="caption">Swan</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/65/5c/c0/655cc0887a0f02e1232c6aeb1e90784f.jpg" alt="Scrapbook">
+            <div class="caption">deer</div>
+        </div>
+
+    
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/23/b9/89/23b98918b4bc96f822d534337cf7c615.jpg" alt="Scrapbook">
+            <div class="caption">calf</div>
+        </div>
+
+   
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/4d/9e/eb/4d9eeb7f3f892cdfe279bc51f4091b64.jpg" alt="Scrapbook">
+            <div class="caption">butterfly</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/736x/bd/6d/10/bd6d105cbc1ac03359a91a9b424b6a7e.jpg" alt="Scrapbook">
+            <div class="caption">lady bug</div>
+        </div>
+
+  
+    <div class="polaroid">
+            <img src="https://i.pinimg.com/1200x/21/d2/c2/21d2c2f1e77a85890623cd590c9148b3.jpg" alt="Scrapbook">
+            <div class="caption">panda</div>
+        </div>
+
+    </div>
+    
+
+    
+
+
+</body>
+</html>
